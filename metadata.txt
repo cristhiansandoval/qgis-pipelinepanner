@@ -1,0 +1,47 @@
+# This file contains metadata for your plugin.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=Pipeline Planner
+qgisMinimumVersion=3.0
+description=Permite al usuario crear una línea y evaluar impactos
+version=0.1
+author=SyK S.A.
+email=syksa@gmail.com
+
+about=Permite que el usuario cree una ruta de tubería potencial haciendo clic en el mapa. Cuando finalice la ruta de la tubería (clic con el botón derecho), se informarán todos los contenidos ambientales afectados.
+
+tracker=https://github.com/cristhiansandoval/qgis-pipelinepanner/issues
+repository=https://github.com/cristhiansandoval/qgis-pipelinepanner
+# End of mandatory metadata
+
+# Recommended items:
+
+hasProcessingProvider=no
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=python
+
+homepage=http://www.syksa.com
+category=Vector
+icon=icon.png
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
+# Since QGIS 3.8, a comma separated list of plugins to be installed
+# (or upgraded) can be specified.
+# Check the documentation for more information.
+# plugin_dependencies=
+
+Category of the plugin: Raster, Vector, Database or Web
+# category=
+
+# If the plugin can run on QGIS Server.
+server=False
+
